@@ -1,0 +1,44 @@
+div.boxprodutos{
+    display: inline-block;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    
+}
+
+.menu{
+    background-color: black;
+    height: 70px;
+    line-height: 60px;
+}
+
+div.meucontato{
+display: inline-block;
+width: 100px;
+margin-left: 350px;
+}
+
+.btn{
+    
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    box-shadow: 0 10px 2px #222;
+    cursor: pointer;
+
+}
+
+
+
+.btn:active{
+    transform: translateY(10px);
+    box-shadow: none;
+}
